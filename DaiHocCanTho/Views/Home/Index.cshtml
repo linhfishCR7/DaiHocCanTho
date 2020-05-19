@@ -1,0 +1,152 @@
+﻿@model IEnumerable<DaiHocCanTho.Models.Khoa>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Main -->
+<article id="main">
+
+    <header class="special container">
+        <span class="icon solid fa-chart-bar"></span>
+        <h2>
+            GIỚI THIỆU CHUNG VỀ ĐẠI HỌC CẦN THƠ
+        </h2>
+        <p>
+            Đại học Cần Thơ (ĐHCT), cơ sở đào tạo đại học và sau đại học trọng điểm của Nhà nước ở ĐBSCL, là trung tâm văn hóa - khoa học kỹ thuật của vùng. Trường đã không ngừng hoàn thiện và phát triển, từ một số ít ngành đào tạo ban đầu, Trường đã củng cố, phát triển thành một trường đa ngành đa lĩnh vực. Hiện nay Trường đào tạo 98 chuyên ngành đại học (trong đó có 2 chương trình đào tạo tiên tiến, 3 chương trình đào tạo chất lượng cao), 45 chuyên ngành cao học (trong đó 1 ngành liên kết với nước ngoài, 3 ngành đào tạo bằng tiếng Anh), 16 chuyên ngành nghiên cứu sinh.
+        </p>
+    </header>
+
+    <!-- One -->
+    <section class="wrapper style2 container special-alt">
+        <div class="row gtr-50">
+            <div class="col-8 col-12-narrower">
+
+                <header>
+                    <h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+                </header>
+                <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+                <footer>
+                    <ul class="buttons">
+                        <li><a href="#" class="button">Find Out More</a></li>
+                    </ul>
+                </footer>
+
+            </div>
+            <div class="col-4 col-12-narrower imp-narrower">
+
+                <ul class="featured-icons">
+                    <li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
+                    <li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
+                    <li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
+                    <li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
+                    <li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
+                    <li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section class="wrapper style1 container special">
+        <div class="row">
+            <div class="col-4 col-12-narrower">
+
+                <section>
+                    <span class="icon solid featured fa-check"></span>
+                    <header>
+                        <h3>This is Something</h3>
+                    </header>
+                    <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+                </section>
+
+            </div>
+            <div class="col-4 col-12-narrower">
+
+                <section>
+                    <span class="icon solid featured fa-check"></span>
+                    <header>
+                        <h3>Also Something</h3>
+                    </header>
+                    <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+                </section>
+
+            </div>
+            <div class="col-4 col-12-narrower">
+
+                <section>
+                    <span class="icon solid featured fa-check"></span>
+                    <header>
+                        <h3>Probably Something</h3>
+                    </header>
+                    <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+                </section>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Three -->
+    <section class="wrapper style3 container special">
+
+        <header class="major">
+            <h2>Next look at this <strong>cool stuff</strong></h2>
+        </header>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-6 col-12-narrower single-product">
+
+                    <section class="@*container1*@ product-f-image">
+                        <a href="@Url.Action("ChiTietKhoa","Home",new { id = item.Id })" class="image @*featured*@" >
+                            <img src="@Html.DisplayFor(modelItem => item.KhoaImages)" alt="" class="imgdetail image1">
+                          
+                        </a>
+                        <div class="product-hover">
+                            <a href="http://www.havanlinhitr.somee.com/LoginSystem" class="add-to-cart-link" target="_blank"><i class="fa fa-cogs"></i>@*@Html.Raw(HttpUtility.HtmlDecode(item.Link))*@ quản lý sinh viên </a>
+                            <a href="@Url.Action("ChiTietKhoa","Home",new { id = item.Id })" class="view-details-link"><i class="fa fa-link"></i> @Html.DisplayFor(modelItem => item.KhoaName) </a>
+
+                            @*<header class="middle1">
+                                <h3 class="text1">
+                                    <a href="@Url.Action("ChiTietKhoa","Home",new { id = item.Id })" class="more-btn">@Html.DisplayFor(modelItem => item.KhoaName) </a>
+                                </h3>
+
+                            </header>*@
+                        </div>
+                   
+            </section>
+
+        </div>
+            }
+        </div>
+
+
+        <footer class="major">
+            <ul class="buttons">
+                <li>@Html.ActionLink("Read More", "TatCaKhoa", "Home")</li>
+            </ul>
+        </footer>
+
+    </section>
+
+</article>
+
+<!-- CTA -->
+<section id="cta">
+
+    <header>
+        <h2>HELLO EVERYONE</h2>
+        <p>MY NAME IS VAN LINH HA</p>
+    </header>
+    <footer>
+        <ul class="buttons">
+            <li><a href="http://linhfishcr7.wordpress.com/" class="button primary" target="_blank">Follow Me</a></li>
+            <li><a href="#" class="button">Log Out</a></li>
+        </ul>
+    </footer>
+
+</section>
+

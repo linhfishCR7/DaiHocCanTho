@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>CAN THO UNIVERSITY</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="~/Temples/images/LogoDHCT.png" />
+    <link rel="stylesheet" href="~/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style_button.css">
+    <link href="~/style.css" rel="stylesheet" />
+    <noscript><link rel="stylesheet" href="~/assets/css/noscript.css" /></noscript>
+    <script src="~/Temples/ckeditor/ckeditor.js"></script>
+</head>
+<body class="index is-preload">
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1 id="logo">@Html.ActionLink("Home", "Index", "Home")</h1>
+            <nav id="nav">
+                <ul>
+                    <li class="current">@Html.ActionLink("Welcome", "Index", "Home")</li>
+                    <li class="submenu">
+                        <a href="#">Layouts</a>
+                        <ul>
+                            <li>@Html.ActionLink("LeftSidebar", "left_sidebar", "Home")</li>
+                            <li>@Html.ActionLink("RightSidebar", "right_sidebar", "Home")</li>
+                            <li>@Html.ActionLink("NoSidebar", "no_sidebar", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "contact", "Home")</li>
+                            <li class="submenu">
+                                <a href="#">Submenu</a>
+                                <ul>
+                                    <li><a href="#">Dolore Sed</a></li>
+                                    <li><a href="#">Consequat</a></li>
+                                    <li><a href="#">Lorem Magna</a></li>
+                                    <li><a href="#">Sed Magna</a></li>
+                                    <li><a href="#">Ipsum Nisl</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="button primary">Sign Up</a></li>
+                    <li class="current">@Html.ActionLink("Admin", "Index", "Khoas")</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+
+            <!--
+                ".inner" is set up as an inline-block so it automatically expands
+                in both directions to fit whatever's inside it. This means it won't
+                automatically wrap lines, so be sure to use line breaks where
+                appropriate (<br />).
+            -->
+            <div class="inner">
+
+                <header>
+                    <h2>CTU</h2>
+                </header>
+                <p>
+                    <strong>CONSENSUS - DEVOTION - QUALITY - INNOVATION</strong>
+                </p>
+                <footer>
+                    <ul class="buttons stacked">
+                        <li><a href="#main" class="button fit scrolly buttonstyle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            WELCOME</a></li>
+                    </ul>
+                </footer>
+
+            </div>
+
+        </section>
+        @RenderBody()
+        <!-- Footer -->
+        <footer id="footer">
+
+            <ul class="icons">
+                <li><a href="https://twitter.com/LINHFISH6" class="icon brands circle fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/HaVanLinh1904" class="icon brands circle fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+                @*<li><a href="#" class="icon brands circle fa-google-plus-g" target="_blank"><span class="label">Google+</span></a></li>*@
+                <li><a href="https://github.com/linhfishCR7" class="icon brands circle fa-github" target="_blank"><span class="label">Github</span></a></li>
+                @*<li><a href="#" class="icon brands circle fa-dribbble" target="_blank"><span class="label">Dribbble</span></a></li>*@
+            </ul>
+
+            <ul class="copyright">
+              
+                <li>Design: <a href="http://linhfishcr7.wordpress.com/">FISH_IT</a></li>
+            </ul>
+        </footer>
+        <!-- Scripts -->
+        <script src="~/assets/js/jquery.min.js"></script>
+        <script src="~/assets/js/jquery.dropotron.min.js"></script>
+        <script src="~/assets/js/jquery.scrolly.min.js"></script>
+        <script src="~/assets/js/jquery.scrollex.min.js"></script>
+        <script src="~/assets/js/browser.min.js"></script>
+        <script src="~/assets/js/breakpoints.min.js"></script>
+        <script src="~/assets/js/util.js"></script>
+        <script src="~/assets/js/main.js"></script>
+    </div>
+</body>
+</html>

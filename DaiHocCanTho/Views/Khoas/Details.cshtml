@@ -1,0 +1,69 @@
+﻿@model DaiHocCanTho.Models.Khoa
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Khoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KhoaImages)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.KhoaImages)*@
+            <img src="@Html.DisplayFor(model => model.KhoaImages)" alt="" class="img">
+
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KhoaName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KhoaName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiDung)
+
+
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.NoiDung)*@
+            @Html.Raw(HttpUtility.HtmlDecode(Model.NoiDung))
+
+
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Link)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.Link)*@
+            @Html.Raw(HttpUtility.HtmlDecode(Model.Link))
+
+
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Published)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Published)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href='@Url.Action("Edit", null, new { id=Model.Id})' class="btn btn-lg mauvang btn-update"><i class="glyphicon glyphicon-pencil"></i></a>
+    <a href='@Url.Action("Index","Khoas")' class="btn btn-lg maureu btn-detail"><i class="glyphicon glyphicon-refresh"></i></a>
+</p>

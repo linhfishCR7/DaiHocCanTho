@@ -1,0 +1,65 @@
+﻿@model DaiHocCanTho.Models.Khoa
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Khoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KhoaImages)
+        </dt>
+
+        <dd>
+            <img src="@Html.DisplayFor(model => model.KhoaImages)" alt="" class="img">
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KhoaName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KhoaName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiDung)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoiDung)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Link)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Link)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Published)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Published)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn maudo btn-lg" />
+            <a href='@Url.Action("Index","Khoas")' class="btn btn-lg maureu btn-detail"><i class="glyphicon glyphicon-refresh"></i></a>
+        </div>
+    }
+</div>

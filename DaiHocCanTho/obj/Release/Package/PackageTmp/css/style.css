@@ -1,0 +1,26 @@
+﻿
+
+ table.table-expandable > tbody > tr:nth-child(odd) {
+            cursor: pointer;
+        }
+
+        table.table-expandable.table-hover > tbody > tr:nth-child(even):hover td {
+            background-color: white;
+        }
+
+        table.table-expandable > tbody > tr div.table-expandable-arrow {
+            background: transparent url(http://hocwebgiare.com/thiet_ke_web_chuan_demo/bootstrap_table_expand/images/arrows.png) no-repeat scroll 0px -16px;
+            width: 40px;
+            height: 40px;
+            display: block;
+        }
+
+            table.table-expandable > tbody > tr div.table-expandable-arrow.up {
+                background-position: 0px 0px;
+            }
+ .img{
+            width:150px;
+            height:100px;
+        }
+
+

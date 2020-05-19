@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAN THO UNIVERSITY - @ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="~/Temples/images/LogoDHCT.png" />
+    <script src="~/scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Temples/ckeditor/ckeditor.js"></script>
+    <script src="~/Temples/ckfinder/ckfinder.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+</head>
+<body>
+       
+
+        <div class="container">
+            @RenderBody()
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <script>
+
+            (function ($) {
+                $(function () {
+                    $('.table-expandable').each(function () {
+                        var table = $(this);
+                        table.children('thead').children('tr').append('');
+                        table.children('tbody').children('tr').filter(':odd').hide();
+                        table.children('tbody').children('tr').filter(':even').click(function () {
+                            var element = $(this);
+                            element.next('tr').toggle('slow');
+                            element.find(".table-expandable-arrow").toggleClass("up");
+                        });
+                        table.children('tbody').children('tr').filter(':even').each(function () {
+                            var element = $(this);
+                            element.append('<div class="table-expandable-arrow"></div>');
+                        });
+                    });
+                });
+            })(jQuery);
+        </script>
+</body>
+</html>
+

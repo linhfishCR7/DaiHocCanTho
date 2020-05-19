@@ -1,0 +1,67 @@
+﻿@model IEnumerable<DaiHocCanTho.Models.Khoa>
+
+@{
+    ViewBag.Title = "TatCaKhoa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <!-- Three -->
+<article>
+    <section class="wrapper style3 container special">
+
+        <header class="major">
+            <h2>TẤT CẢ KHOA</h2>
+        </header>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-4 col-6-narrower ">
+
+                    <section class="container1 ">
+                        <a href="@Url.Action("ChiTietKhoa","Home",new { id = item.Id })" class="image featured">
+                            <img src="@Html.DisplayFor(modelItem => item.KhoaImages)" alt="" class="imgdetail2">
+
+                        </a>
+        
+                        <header class="middle1">
+                            <h3 class="text1">
+                                <a href="@Url.Action("ChiTietKhoa","Home",new { id = item.Id })" class="more-btn">@Html.DisplayFor(modelItem => item.KhoaName) </a>
+                            </h3>
+
+                        </header>
+
+                    </section>
+
+                </div>
+            }
+        </div>
+
+        <footer class="major">
+            <ul class="buttons">
+                <li>@Html.ActionLink("Return", "Index", "Home")</li>
+            </ul>
+        </footer>
+
+    </section>
+
+
+</article>
+<!-- CTA -->
+<section id="cta">
+
+    <header>
+        <h2>HELLO EVERYONE</h2>
+        <p>MY NAME IS VAN LINH HA</p>
+    </header>
+    <footer>
+        <ul class="buttons">
+            <li><a href="http://linhfishcr7.wordpress.com/" class="button primary" target="_blank">Follow Me</a></li>
+            <li><a href="#" class="button">Log Out</a></li>
+        </ul>
+    </footer>
+
+</section>
+
+
+

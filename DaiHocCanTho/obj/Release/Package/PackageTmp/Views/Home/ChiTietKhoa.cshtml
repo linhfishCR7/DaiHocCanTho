@@ -1,0 +1,50 @@
+﻿@model DaiHocCanTho.Models.Khoa
+
+@{
+    ViewBag.Title = "ChiTietKhoa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="style3 container special">
+    <header class="major">
+        <h2><strong >CHI TIẾT KHOA</strong></h2>
+    </header>
+    </section>
+
+    <article>
+        <section class="wrapper style3 container special">
+            <div class="row">
+
+                <div class="col-12 col-12-narrower">
+
+                    <section>
+                        <a href="#" class="image featured">
+                            <img src="@Html.DisplayFor(model => model.KhoaImages)" alt="" class="imgdetail">
+                        </a>
+                        <header>
+                            <h3>
+                                @Html.DisplayFor(model => model.KhoaName)
+                            </h3>
+
+                        </header>
+                        <p>
+                            @Html.Raw(HttpUtility.HtmlDecode(Model.NoiDung))
+                        </p>
+                        <p>
+                            @*@Html.DisplayFor(model => model.Link)*@
+                            @Html.Raw(HttpUtility.HtmlDecode(Model.Link))
+
+
+                        </p>
+                        <p>
+                            @Html.DisplayFor(model => model.Published)
+                        </p>
+                        <p>@Html.ActionLink("Return", "Index", "Home")</p>
+                    </section>
+
+                </div>
+
+            </div>
+        </section>
+
+    </article>

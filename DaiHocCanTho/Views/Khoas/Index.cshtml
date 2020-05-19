@@ -1,0 +1,94 @@
+﻿@model IEnumerable<DaiHocCanTho.Models.Khoa>
+
+@{
+    ViewBag.Title = "Index1";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<h2>Index</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+    <a href='@Url.Action("Create","Khoas")' class="btn btn-lg maureu btn-add"><i class="glyphicon glyphicon-plus"></i></a>
+
+    
+</p>
+<html>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">ADMIN SYSTEM</h1>
+        <table class="table table-hover table-expandable table-striped   table-bordered  " >
+            <thead>
+                <tr class="table-success text-justify">
+                    <th>
+                     <p class="text-center">Hình Ảnh</p>
+                    </th>
+                    <th>
+                        <p class="text-center">Tên Khoa</p>
+                        
+                    </th>
+                   
+                    <th>
+                        <p class="text-center">Link</p>
+                                            
+                    </th>
+                    <th>
+                        <p class="text-center">Năm Thành Lập</p>
+                        
+                    </th>
+
+                    <th>
+                        <p class="text-center">Chức Năng</p>
+                    </th>
+                    <th>
+                        <p class="text-center">Main</p>
+                    
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+               @foreach (var item in Model)
+               {
+                <tr>
+                    <td>
+                        <img src="@Html.DisplayFor(modelItem => item.KhoaImages)" alt="" class="img img-responsive">
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.KhoaName)
+                    </td>
+                   
+                    <td>
+                        @*@Html.DisplayFor(modelItem => item.Link)*@
+                        @Html.Raw(HttpUtility.HtmlDecode(item.Link))
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Published)
+                    </td>
+                    <td>
+                        <a href='@Url.Action("Edit", null, new { id=item.Id})' class="btn btn-sm mauvang btn-update"><i class="glyphicon glyphicon-pencil"></i></a>
+                        <a href='@Url.Action("Delete",null, new { id=item.Id})' class="btn btn-sm maudo btn-delete"><i class="glyphicon glyphicon-trash"></i></a>
+                        <a href='@Url.Action("Details",null, new { id=item.Id})' class="btn btn-sm maureu btn-detail"><i class="glyphicon glyphicon-cog"></i></a>
+
+                        
+
+                       
+                     
+                        
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        @Html.Raw(HttpUtility.HtmlDecode(item.NoiDung))
+                    </td>
+                </tr>
+               }
+
+              
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+   

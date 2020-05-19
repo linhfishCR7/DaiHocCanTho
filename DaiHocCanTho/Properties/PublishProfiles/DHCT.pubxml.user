@@ -1,0 +1,3541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\dell\Desktop\DHCT</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>05/11/2020 00:17:39</publishTime>
+    </File>
+    <File Include="assets/css/fontawesome-all.min.css">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/dark-bl.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/dark-br.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/dark-tl.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/dark-tr.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/DHCT1.jpg">
+      <publishTime>05/11/2020 19:45:40</publishTime>
+    </File>
+    <File Include="assets/css/images/light-bl.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/light-br.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/light-tl.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/light-tr.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/images/overlay.png">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/main.css">
+      <publishTime>05/15/2020 22:05:53</publishTime>
+    </File>
+    <File Include="assets/css/noscript.css">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/css/style_button.css">
+      <publishTime>05/13/2020 10:04:09</publishTime>
+    </File>
+    <File Include="assets/js/breakpoints.min.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/browser.min.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/jquery.dropotron.min.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/jquery.scrollex.min.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/jquery.scrolly.min.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/main.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/js/util.js">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_breakpoints.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_functions.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_html-grid.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_mixins.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_vars.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/libs/_vendor.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/main.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/sass/noscript.scss">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.eot">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.ttf">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.woff">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-brands-400.woff2">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.eot">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.ttf">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.woff">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-regular-400.woff2">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.eot">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.svg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.ttf">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.woff">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="assets/webfonts/fa-solid-900.woff2">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/11/2020 00:17:39</publishTime>
+    </File>
+    <File Include="bin/CKFinder.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="bin/DaiHocCanTho.dll">
+      <publishTime>05/19/2020 14:50:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 09:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>12/07/2015 19:04:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>03/10/2016 14:26:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>03/09/2016 12:00:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>03/10/2016 14:26:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>03/09/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/23/2012 15:23:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/24/2020 14:11:17</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>05/13/2020 09:49:24</publishTime>
+    </File>
+    <File Include="css/style1.css">
+      <publishTime>05/15/2020 01:20:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/11/2020 00:17:32</publishTime>
+    </File>
+    <File Include="images/banner.jpg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="images/pic01.jpg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="images/pic02.jpg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="images/pic03.jpg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="images/pic04.jpg">
+      <publishTime>05/11/2020 00:18:38</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>03/01/2020 16:01:41</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/11/2020 00:36:39</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.js">
+      <publishTime>05/11/2020 00:17:40</publishTime>
+    </File>
+    <File Include="scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>05/11/2020 00:17:40</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.js">
+      <publishTime>05/11/2020 00:36:38</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.min.js">
+      <publishTime>05/11/2020 00:36:38</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.10.2.min.map">
+      <publishTime>05/11/2020 00:36:38</publishTime>
+    </File>
+    <File Include="scripts/jquery-3.3.1.min.js">
+      <publishTime>03/01/2020 19:53:34</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.js">
+      <publishTime>05/11/2020 00:36:38</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.min.js">
+      <publishTime>05/11/2020 00:36:38</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.unobtrusive.js">
+      <publishTime>05/11/2020 00:36:39</publishTime>
+    </File>
+    <File Include="scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>05/11/2020 00:36:39</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>05/15/2020 21:56:37</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/adapters/jquery.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/build-config.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/CHANGES.md">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/ckeditor.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/config.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/contents.css">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/af.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ar.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/az.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/bg.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/bn.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/bs.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ca.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/cs.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/cy.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/da.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/de-ch.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/de.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/el.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/en-au.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/en-ca.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/en-gb.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/en.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/eo.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/es-mx.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/es.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/et.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/eu.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/fa.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/fi.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/fo.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/fr-ca.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/fr.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/gl.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/gu.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/he.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/hi.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/hr.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/hu.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/id.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/is.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/it.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ja.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ka.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/km.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ko.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ku.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/lt.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/lv.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/mk.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/mn.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ms.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/nb.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/nl.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/no.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/oc.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/pl.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/pt-br.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/pt.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ro.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ru.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/si.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/sk.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/sl.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/sq.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/sr-latn.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/sr.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/sv.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/th.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/tr.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/tt.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/ug.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/uk.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/vi.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/zh-cn.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/lang/zh.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/LICENSE.md">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/af.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/az.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/da.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/de.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/el.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/en.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js">
+      <publishTime>05/11/2020 12:21:42</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/es.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/et.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/he.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/id.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/it.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/km.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/no.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/si.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/th.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/icons.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/icons_hidpi.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/image/images/noimage.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/link/images/anchor.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/link/images/hidpi/anchor.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/magicline/images/hidpi/icon.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/magicline/images/icon-rtl.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/magicline/images/icon.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/CHANGELOG.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/dialogs/dialog.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/LICENSE.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/README.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/af.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ar.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/az.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/bg.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ca.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/cs.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/cy.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/da.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/de.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/el.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/en-au.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/en.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/eo.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/es.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/et.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/eu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/fa.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/fi.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/fr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/gl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/he.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/hr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/hu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/id.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/it.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ja.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/km.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ko.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ku.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/lt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/lv.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/nb.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/nl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/no.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/oc.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/pl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/pt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ru.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/si.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/sk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/sl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/sq.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/sv.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/th.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/tr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/tt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/ug.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/uk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/vi.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/zh.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/tableselection/styles/tableselection.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadimage/plugin.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/dev/cors.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/dev/filereaderplugin.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/dev/upload.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/az.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/ca.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/cs.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/da.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/de-ch.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/de.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/el.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/en.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/eo.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/es-mx.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/es.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/eu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/fr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/gl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/hr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/hu.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/id.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/it.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/ja.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/km.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/ko.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/ku.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/nb.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/nl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/no.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/oc.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/pl.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/pt-br.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/pt.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/ru.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/sk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/sv.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/tr.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/ug.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/uk.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/zh-cn.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/lang/zh.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/uploadwidget/plugin.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/dialogs/ciframe.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/dialogs/tmpFrameset.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/dialogs/wsc.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/dialogs/wsc.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/dialogs/wsc_ie.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/LICENSE.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/README.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/README.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/css/samples.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/img/github-top.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/img/header-bg.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/img/header-separator.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/img/logo.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/img/navigation-tip.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/index.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/js/sample.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/js/sf.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/ajax.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/api.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/appendto.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/assets/inlineall/logo.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/assets/posteddata.php">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/assets/sample.jpg">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/assets/uilanguages/languages.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/datafiltering.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/dialog/assets/my_dialog.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/dialog/dialog.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/divreplace.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/enterkey/enterkey.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/htmlwriter/outputforflash.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/htmlwriter/outputhtml.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/index.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/inlineall.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/inlinebycode.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/inlinetextarea.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/jquery.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/magicline/magicline.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/readonly.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/replacebyclass.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/replacebycode.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/sample.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/sample.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/sample_posteddata.php">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/tabindex.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/toolbar/toolbar.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/uicolor.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/uilanguages.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/wysiwygarea/fullpage.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/old/xhtmlstyle.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/css/fontello.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/font/config.json">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/font/fontello.eot">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/font/fontello.svg">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/font/fontello.ttf">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/font/fontello.woff">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/index.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/dialog.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/dialog_ie.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/dialog_ie8.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/dialog_iequirks.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/editor.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/editor_gecko.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/editor_ie.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/editor_ie8.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/editor_iequirks.css">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/icons.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/icons_hidpi.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/arrow.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/close.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/hidpi/close.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/hidpi/lock.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/hidpi/refresh.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/lock-open.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/lock.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/refresh.png">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/images/spinner.gif">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/skins/moono-lisa/readme.md">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckeditor/styles.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Debug/CKFinder.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Debug/CKFinder_FileEditor.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Debug/CKFinder_ImageResize.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Debug/CKFinder_Watermark.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Release/CKFinder.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Release/CKFinder_FileEditor.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Release/CKFinder_ImageResize.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/bin/Release/CKFinder_Watermark.dll">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/changelog.txt">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/ckfinder.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/ckfinder.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/ckfinder_v1.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/config.ascx">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/config.js">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/connector.aspx">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/bg.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/ca.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/cs.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/cy.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/da.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/de.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/el.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/en.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/eo.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/es-mx.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/es.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/et.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/fa.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/fi.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/fr.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/gu.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/he.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/hi.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/hr.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/hu.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/it.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/ja.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/lt.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/lv.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/nb.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/nl.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/nn.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/no.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/pl.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/pt-br.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/ro.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/ru.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/sk.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/sl.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/sr.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/sv.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/tr.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/vi.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/zh-cn.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/core/connector/aspx/lang/zh-tw.xml">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/001.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/002.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/003.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/004.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/005.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/006.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/007.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/008.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/009.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/010.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/011.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/012.html">
+      <publishTime>05/11/2020 12:21:43</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/014.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/015.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/cs/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/001.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/002.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/003.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/004.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/005.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/006.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/007.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/008.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/009.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/010.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/011.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/012.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/014.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/015.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/en/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/001.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/002.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/003.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/004.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/005.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/006.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/007.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/008.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/009.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/010.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/011.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/012.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/001.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/002.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/003.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/004.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/005.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/006.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/007.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/008.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/009.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/010.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/011.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/012.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/013.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/014.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/015.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/016.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/017.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/018.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/019.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/images/020.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es-mx/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/001.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/002.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/003.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/004.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/005.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/006.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/007.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/008.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/009.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/010.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/011.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/012.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/001.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/002.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/003.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/004.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/005.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/006.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/007.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/008.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/009.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/010.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/011.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/012.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/013.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/014.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/015.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/016.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/017.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/018.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/019.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/images/020.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/es/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/001.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/002.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/003.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/004.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/005.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/006.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/007.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/008.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/009.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/010.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/011.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/012.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/001.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/002.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/003.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/004.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/005.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/006.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/007.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/008.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/009.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/010.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/011.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/012.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/013.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/014.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/015.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/016.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/017.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/018.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/019.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/images/020.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/fi/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/002.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/003.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_basket_clear.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_basket_drag.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_basket_empty.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_basket_file_menu.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_basket_remove.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_already_exists.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_copied.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_delete.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_display_01.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_display_02.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_display_03.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_display_04.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_drag_copy.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_drag_move.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_menu.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_moved.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_pane.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_rename.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_resize.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_resize_both.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_resize_new.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_resize_overwrite.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_resize_resized.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_resize_thumbnails.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_select_hovered.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_select_selected.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_select_unselected.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_view_list.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_file_view_thumbnails.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_collapse.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_copied_from_basket.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_delete.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_expand.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_loading.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_menu.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_moved_from_basket.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_new.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_pane.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_rename.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_folder_select.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_interface.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_menu_arrow.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_menu_arrows.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_resize_lock.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_resize_reset.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_resize_unlock.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_settings.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_status_empty.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_status_file.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_status_folder.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_toolbar.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_toolbar_help.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_toolbar_refresh.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_upload_01.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_upload_03.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_upload_04.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_upload_09.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/images/CKFinder_upload_10.png">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/other/help.css">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/files/other/help.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/001.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/002.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/003.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/004.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/005.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/006.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/007.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/008.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/009.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/010.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/011.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/012.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/001.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/002.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/003.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/004.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/005.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/006.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/007.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/008.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/009.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/010.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/011.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/012.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/013.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/014.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/015.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/016.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/017.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/018.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/019.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/images/020.gif">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/lt/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/001.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/002.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/003.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/004.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/005.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/006.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/007.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/008.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/009.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/010.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/011.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/012.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/013.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/014.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/015.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/header.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/license.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/suggestions.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/files/toc.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/help/pl/index.html">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/install.txt">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/bg.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/ca.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/cs.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/cy.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/da.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/de.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/el.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/en.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/eo.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/es-mx.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/es.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/et.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/fa.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/fi.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/fr.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/gu.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/he.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/hi.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/hr.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/hu.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/it.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/ja.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/lt.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/lv.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/nb.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/nl.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/nn.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/no.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/pl.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/pt-br.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/ro.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/ru.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/sk.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/sl.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/sr.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/sv.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/tr.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/vi.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/zh-cn.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/zh-tw.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/lang/_translationstatus.txt">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/license.txt">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/dummy/lang/en.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/dummy/lang/pl.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/dummy/plugin.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/addon/mode/overlay.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/lib/codemirror.css">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/lib/codemirror.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/LICENSE">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/clike/clike.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/css/css.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/htmlmixed/htmlmixed.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/javascript/javascript.js">
+      <publishTime>05/11/2020 12:21:44</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/markdown/markdown.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/perl/perl.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/python/python.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/rst/rst.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/ruby/ruby.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/sass/sass.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/sql/sql.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/stex/stex.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/codemirror/mode/xml/xml.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/fileeditor/plugin.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/colorbox.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/border.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/controls.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderBottomCenter.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderBottomLeft.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderBottomRight.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderMiddleLeft.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderMiddleRight.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderTopCenter.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderTopLeft.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/ie6/borderTopRight.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/loading.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/loading_background.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/images/overlay.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/jquery.colorbox-min.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/jquery.min.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/gallery/colorbox/license.txt">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/imageresize/images/mini.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/imageresize/plugin.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/plugins/watermark/logo.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/app.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/assets/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/host.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/ai.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/avi.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/bmp.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/cs.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/default.icon.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/dll.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/doc.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/docx.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/exe.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/fla.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/gif.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/jpg.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/js.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/mdb.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/mp3.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/ogg.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/pdf.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/ppt.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/pptx.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/rdp.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/swf.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/swt.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/txt.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/vsd.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/xls.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/xlsx.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/xml.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/16/zip.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/ai.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/avi.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/cs.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/default.icon.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/dll.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/doc.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/docx.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/exe.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/fla.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/gif.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/jpg.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/js.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/mdb.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/mp3.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/ogg.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/pdf.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/ppt.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/pptx.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/rdp.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/swf.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/swt.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/txt.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/vsd.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/xls.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/xlsx.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/xml.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/images/icons/32/zip.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/skin.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/bootstrap/uipanel.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/app.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/host.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/ckffolder.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/ckffolderopened.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/ckfminus.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/ckfnothumb.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/ckfplus.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/ai.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/avi.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/bmp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/cs.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/default.icon.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/dll.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/doc.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/docx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/exe.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/fla.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/gif.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/jpg.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/js.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/mdb.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/mp3.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/ogg.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/pdf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/ppt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/pptx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/rdp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/swf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/swt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/txt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/vsd.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/xls.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/xlsx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/xml.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/16/zip.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/ai.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/avi.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/bmp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/cs.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/default.icon.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/dll.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/doc.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/docx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/exe.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/fla.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/gif.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/jpg.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/js.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/mdb.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/mp3.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/ogg.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/ogg.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/pdf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/ppt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/pptx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/rdp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/swf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/swt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/txt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/vsd.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/xls.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/xlsx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/xml.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/icons/32/zip.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/loaders/16x16.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/loaders/32x32.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/spacer.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/sprites.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/sprites_ie6.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/add.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/clear_basket.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/delete.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/download.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/help.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/maximize.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/refresh.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/settings.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/images/toolbar/view.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/richcombo.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/skin.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/kama/uipanel.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/app.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/host.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/ckffolder.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/ckffolderopened.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/ckfminus.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/ckfnothumb.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/ckfplus.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/dialog_sides.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/dialog_sides.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/dialog_sides_rtl.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/ai.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/avi.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/bmp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/cs.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/default.icon.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/dll.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/doc.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/docx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/exe.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/fla.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/gif.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/jpg.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/js.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/mdb.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/mp3.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/pdf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/ppt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/pptx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/rdp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/swf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/swt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/txt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/vsd.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/xls.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/xlsx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/xml.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/16/zip.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/ai.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/avi.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/bmp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/cs.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/default.icon.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/dll.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/doc.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/docx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/exe.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/fla.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/gif.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/jpg.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/js.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/mdb.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/mp3.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/pdf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/ppt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/pptx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/rdp.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/swf.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/swt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/txt.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/vsd.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/xls.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/xlsx.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/xml.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/icons/32/zip.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/loaders/16x16.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/loaders/32x32.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/spacer.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/sprites.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/sprites_ie6.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/add.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/clear_basket.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/delete.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/download.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/help.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/maximize.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/refresh.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/settings.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar/view.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/images/toolbar_start.gif">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/richcombo.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/skin.js">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/skins/v1/uipanel.css">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/translations.txt">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/ckfinder/userfiles/.htaccess">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/background.jpg">
+      <publishTime>05/11/2020 12:49:51</publishTime>
+    </File>
+    <File Include="Temples/images/banner.jpg">
+      <publishTime>05/11/2020 12:49:51</publishTime>
+    </File>
+    <File Include="Temples/images/DHCT1.jpg">
+      <publishTime>05/11/2020 12:49:51</publishTime>
+    </File>
+    <File Include="Temples/images/Ha-Van-Linh.jpg">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/HoiTruongRua.jpg">
+      <publishTime>05/11/2020 12:49:51</publishTime>
+    </File>
+    <File Include="Temples/images/KhoaCN.jpg">
+      <publishTime>05/11/2020 12:49:52</publishTime>
+    </File>
+    <File Include="Temples/images/KhoaCNTT.jpg">
+      <publishTime>05/11/2020 12:49:52</publishTime>
+    </File>
+    <File Include="Temples/images/khoahoctunhien.jpg">
+      <publishTime>05/13/2020 10:48:36</publishTime>
+    </File>
+    <File Include="Temples/images/khoaNN.jpg">
+      <publishTime>05/11/2020 12:49:53</publishTime>
+    </File>
+    <File Include="Temples/images/LogoDHCT.png">
+      <publishTime>05/13/2020 11:03:46</publishTime>
+    </File>
+    <File Include="Temples/images/Logo_DHCT.png">
+      <publishTime>05/11/2020 12:49:53</publishTime>
+    </File>
+    <File Include="Temples/images/Logo_QLSV.png">
+      <publishTime>05/11/2020 12:49:53</publishTime>
+    </File>
+    <File Include="Temples/images/NhaDieuHanh.jpg">
+      <publishTime>05/11/2020 12:49:53</publishTime>
+    </File>
+    <File Include="Temples/images/norway-3840x2160-4k-hd-wallpaper-geiranger-stryn-mountain-clouds-860.jpg">
+      <publishTime>05/11/2020 12:49:54</publishTime>
+    </File>
+    <File Include="Temples/images/Panel copy.png">
+      <publishTime>05/11/2020 12:49:54</publishTime>
+    </File>
+    <File Include="Temples/images/pic01.jpg">
+      <publishTime>05/11/2020 12:49:54</publishTime>
+    </File>
+    <File Include="Temples/images/pic02.jpg">
+      <publishTime>05/11/2020 12:49:54</publishTime>
+    </File>
+    <File Include="Temples/images/pic03.jpg">
+      <publishTime>05/11/2020 12:49:54</publishTime>
+    </File>
+    <File Include="Temples/images/pic04.jpg">
+      <publishTime>05/11/2020 12:49:54</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-01.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-02.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-03.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-04.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-05.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-06.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-07.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-08.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-09.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-10.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-11.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/1100x834-12.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/CIC01.jpg">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/images/Project/MTC-17-002-PHOTO-001.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Ha-Van-Linh.jpg">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-01.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-02.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-03.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-04.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-05.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-06.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-07.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-08.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-09.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-10.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-11.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/1100x834-12.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/CIC01.jpg">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Temples/_thumbs/Images/Project/MTC-17-002-PHOTO-001.png">
+      <publishTime>05/11/2020 12:21:45</publishTime>
+    </File>
+    <File Include="Upload/khoahoctunhien.jpg">
+      <publishTime>05/13/2020 10:45:37</publishTime>
+    </File>
+    <File Include="Upload/LogoDHCT.png">
+      <publishTime>05/13/2020 11:03:12</publishTime>
+    </File>
+    <File Include="Views/Home/ChiTietKhoa.cshtml">
+      <publishTime>05/13/2020 10:54:36</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>05/11/2020 00:45:56</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>05/19/2020 14:58:33</publishTime>
+    </File>
+    <File Include="Views/Home/left_sidebar.cshtml">
+      <publishTime>05/11/2020 12:32:47</publishTime>
+    </File>
+    <File Include="Views/Home/no_sidebar.cshtml">
+      <publishTime>05/11/2020 00:50:28</publishTime>
+    </File>
+    <File Include="Views/Home/right_sidebar.cshtml">
+      <publishTime>05/11/2020 12:33:14</publishTime>
+    </File>
+    <File Include="Views/Home/TatCaKhoa.cshtml">
+      <publishTime>05/15/2020 22:34:30</publishTime>
+    </File>
+    <File Include="Views/Khoas/Create.cshtml">
+      <publishTime>05/15/2020 12:55:49</publishTime>
+    </File>
+    <File Include="Views/Khoas/Delete.cshtml">
+      <publishTime>05/15/2020 12:52:53</publishTime>
+    </File>
+    <File Include="Views/Khoas/Details.cshtml">
+      <publishTime>05/15/2020 12:52:07</publishTime>
+    </File>
+    <File Include="Views/Khoas/Edit.cshtml">
+      <publishTime>05/15/2020 12:51:31</publishTime>
+    </File>
+    <File Include="Views/Khoas/Index.cshtml">
+      <publishTime>05/15/2020 12:54:01</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>05/15/2020 16:42:45</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutAdmin.cshtml">
+      <publishTime>05/15/2020 22:28:52</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>05/11/2020 00:17:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/19/2020 14:50:13</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
